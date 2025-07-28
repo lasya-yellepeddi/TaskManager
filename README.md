@@ -35,3 +35,17 @@
    ```bash
    git clone https://github.com/lasya-yellepeddi/MyTaskManager.git
    cd MyTaskManager
+Install dependencies
+npm install
+
+2. Set up environment variables
+
+Create a .env file in the root directory and add:
+
+PORT=3000
+MONGODB_URL=your_mongo_db_connection_string
+JWT_SECRET=your_secret_key
+
+4.Run the server
+
+npm start
