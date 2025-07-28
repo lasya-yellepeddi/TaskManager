@@ -1,52 +1,37 @@
+# MyTaskManager
 
-# Task Manager Application with MongoDB
+**A task manager backend with authentication and CRUD features.**
 
-I have created a Task Manager Application with NodeJS, ExpressJS and MongoDB. This is a Basic Version of the Task Manager App with a few features implemented into it!
+## 🔧 Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT (JSON Web Tokens)
 
-# Features:
--Task Creation Feature <br>
--Task Description Feature <br>
--Task Deadline Feature <br>
--Task Deletion Feature <br>
+## 📋 Features
+- User registration and login with secure JWT authentication
+- Create, read, update, and delete tasks
+- Middleware to protect routes and ensure only authenticated access
+- Structured MVC architecture for clean code organization
+- Tested endpoints using Postman
 
+## 🚀 Getting Started
 
-## Installation
+### Prerequisites
+- Node.js and npm installed
+- MongoDB installed locally or access to MongoDB Atlas
 
-To install and run this project,
+## 📋 Features
+- User registration and login with secure JWT authentication
+- Create, read, update, and delete tasks
+- Middleware to protect routes and ensure only authenticated access
+- Structured MVC architecture for clean code organization
+- Tested endpoints using Postman
 
-You can download the zip file or Clone the Project Repository using Git with the below command:
-```bash
-git clone https://github.com/DhruvAthaide/TaskManager-MongoDB.git
-```
+### Installation
 
-Then, open the terminal in the project directory, and run the following command:
-
-```bash
-  npm install
-```
-
-Once, you have installed the dependancies for the project using NodeJS, Open your Mongo DataBase using the MongoDB Compass GUI Application click on "Create a Database" and enter the following details:
-```bash
-Database Name: task-manager
-Collection Name: tasks
-```
-
-Once, you have created the Database to store all the user data, you can run the following command in the terminal of the project directory to start the ExpressJS server using nodemon:
-```bash
-nodemon src/server.js
-```
-
-Then, you can paste the following address into your browser to access the LoginSignUp Server:
-```bash
-http://localhost:3000/
-```
-
-## Languages & Tools Used:
-<p align="left"> 
-
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/> </a>  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://expressjs.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="expressjs" width="40" height="40"/> </a>
-<a href="https://nodejs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/> </a>
-
-</p>
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/lasya-yellepeddi/MyTaskManager.git
+   cd MyTaskManager
