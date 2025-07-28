@@ -40,10 +40,6 @@ Then, you can paste the following address into your browser to access the LoginS
 ```bash
 http://localhost:3000/
 ```
-## Authors
-
-- [@DhruvAthaide](https://github.com/DhruvAthaide)
-
 
 ## Languages & Tools Used:
 <p align="left"> 
